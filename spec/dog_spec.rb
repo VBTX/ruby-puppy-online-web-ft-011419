@@ -6,14 +6,13 @@ describe "Dog" do
   let!(:fido) { Dog.new("Fido") }
   let!(:maddy) { Dog.new("Maddy") }
 
-binding.pry
-
   after(:each) do
     Dog.class_variable_set(:@@all, [])
   end
 
   describe "Dog class variables" do
     it "has a class variable, @@all, the points to an array" do
+      binding.pry
       expect(Dog.class_variable_get(:@@all)).to be_a(Array)
     end
   end
