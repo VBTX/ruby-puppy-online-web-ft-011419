@@ -29,4 +29,3 @@ Dog.new('Dog')
 puts 'hi'
 Dog.all
 Dog.clear_all
-binding.pry
