@@ -6,7 +6,7 @@ describe "Dog" do
   let!(:fido) { Dog.new("Fido") }
   let!(:maddy) { Dog.new("Maddy") }
 
-
+binding.pry
 
   after(:each) do
     Dog.class_variable_set(:@@all, [])
