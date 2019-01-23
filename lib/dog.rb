@@ -27,3 +27,4 @@ end
 
 Dog.new('Dog')
 puts 'hi'
+Dog.clear_all
