@@ -23,3 +23,9 @@ class Dog
     end
   end
 end
+
+hash.each do |key, value|
+  value.each do |other_key, other_value|
+    binding.pry
+  end
+end
