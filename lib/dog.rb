@@ -24,3 +24,5 @@ class Dog
     end
   end
 end
+
+Dog.new('Dog')
