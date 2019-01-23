@@ -12,7 +12,7 @@ describe "Dog" do
 
   describe "Dog class variables" do
     it "has a class variable, @@all, the points to an array" do
-      binding.pry
+      #binding.pry
       expect(Dog.class_variable_get(:@@all)).to be_a(Array)
     end
   end
